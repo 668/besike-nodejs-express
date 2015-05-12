@@ -1,0 +1,25 @@
+{
+  "name": "mini-harp",
+  "version": "1.0.0",
+  "description": "a mini-harp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mini-harp": "./bin/mini-harp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/668/besike-nodejs-express.git"
+  },
+  "author": "Hanfei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/668/besike-nodejs-express/issues"
+  },
+  "homepage": "https://github.com/668/besike-nodejs-express",
+  "dependencies": {
+    "connect": "^3.0.1"
+  }
+}
