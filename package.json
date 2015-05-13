@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/668/besike-nodejs-express",
   "dependencies": {
-    "connect": "^3.0.1"
+    "connect": "^3.0.1",
+    "serve-static": "^1.0.3"
   }
 }
