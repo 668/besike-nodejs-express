@@ -3,7 +3,6 @@
 var parseArgs = require('minimist');
 var miniHarp = require("mini-harp");
 var serveStatic = require('serve-static');
-var makeJade =  require('../node_modules/jade');
 
 // var root = process.cwd(); // current directory
 var args = parseArgs(process.argv);
@@ -24,6 +23,5 @@ app
 
     next();
 })
-.use(serveStatic())
-.use(makeJade(root))
+.use(serveStatic(root))
 .listen(port);
