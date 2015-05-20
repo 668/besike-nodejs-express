@@ -20,7 +20,6 @@ app
         res.write((new Date()).toISOString() + "\n");
         res.end();
     } 
-
     next();
 })
 .use(serveStatic(root))
